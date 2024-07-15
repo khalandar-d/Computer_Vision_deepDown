@@ -1,8 +1,10 @@
 import cv2
 import matplotlib.pyplot as plt
+import os
+print(os.getcwd())
 
 # Load an image
-image = cv2.imread('../sample_data/0000000000.png')
+image = cv2.imread('sample_data/0000000089.png')
 
 # Convert BGR (default in OpenCV) to RGB
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
